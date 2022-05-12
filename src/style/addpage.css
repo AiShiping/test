@@ -1,0 +1,36 @@
+#form {
+    border-radius: 5px;
+    background-color: #f5f4f4be;
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-right: 600px;
+    width: 740px;
+    height: 640px;
+    
+}
+
+#i{
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0px 0px 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#add-button{
+    background-color: rgba(190, 171, 147, 0.644);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    font-size: 15px;
+    width: 100px;
+    height: 56px;
+    position: sticky;
+    left: 1700px;
+    top:20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border:1px;
+}

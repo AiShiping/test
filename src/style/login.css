@@ -1,0 +1,110 @@
+#container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+body {
+    min-height: 100%;
+    position: relative;
+    
+}
+html {
+    background-image: url(../../public/123.jpg);
+    background-repeat:contain;
+    opacity: 0.8;
+}
+
+#loginform{
+    border: 2px solid rgb(131, 96, 55);
+    width: 558px;
+    height: 300px;
+    padding: 30px;
+    margin: 250px 650px;
+    border-radius: 20px;
+    background-color: rgba(204, 163, 116, 0.692);
+    
+}
+#labelu{
+    width: 390px;
+    padding:20px;
+    margin-left: 20px;
+    margin-top:40px;
+    ;
+}
+
+#inputu{
+    width: 355px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+#labelp{
+    width: 390px;
+    padding:0px;
+    margin-left: 45px;
+}
+#inputp{
+    width: 360px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 18px;
+}
+#login-button{
+    background-color: rgb(153, 133, 109);
+    margin: 30px 10px 10px 250px;
+    border-radius: 12px;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+
+}
+#login-button:hover {
+    background-color: rgb(109, 80, 47); 
+    color: white;
+}
+
+#slider{
+    position: relative;
+    width: 473px;
+    height: 40px;
+    border: 1px solid rgb(26, 10, 10);
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+#masklayer,#text,#slider-button{
+    position: absolute;
+}
+#masklayer{
+    width: 0;
+    height: 100%;
+    background-color: bisque;
+
+}
+#text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    color:rgb(17, 15, 15);
+}
+#slider-button{
+    font-family: Simsun;
+    text-align: center;
+    width: 30px;
+    height: 100%;
+    line-height: 40px;
+    user-select: none;
+    cursor:pointer;
+    background-color: rgba(117, 45, 17, 0.692);
+    border-radius: 2px;
+
+}
+
+
+

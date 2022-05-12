@@ -1,0 +1,132 @@
+
+/* 下拉按钮样式 */
+.dropdown-button {
+    background-color: rgb(196, 146, 90);
+    color: rgb(12, 1, 1);
+    padding: 16px;
+    font-size: 21px;
+    border: 2px solid rgb(145, 97, 43);
+    cursor: pointer;
+    border-radius: 3px;
+    width: 120px;
+    height: 60px;
+
+}
+
+/* 定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 130px
+}
+*
+ /*下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9a2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* 下拉菜单按钮*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  
+}
+
+/* 鼠标移上去后修改下拉菜单按钮颜色 */
+.dropdown-content a:hover{
+    background-color: #ecb07e
+}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown-button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.dropdown-button:hover {
+    background-color: rgb(196, 146, 90);
+    color: white;
+}
+
+/*表格样式------------------------------------------------------------------------------------------------------*/
+#Table {
+    border-collapse: collapse;
+    margin: 60px;
+
+}
+
+#table,
+th {
+    background-color: rgba(211, 154, 89, 0.733);
+    border: 1px solid rgb(102, 78, 11);
+    width: 300px;
+    height: 70px;
+}
+
+#table,
+td {
+    border: 1px solid rgba(102, 78, 11, 0.911);
+    background-color: #dee9dfcb;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+
+}
+
+#details {
+    font-size: 12px;
+}
+
+#delete {
+    font-size: 12px
+}
+
+/*添加按钮样式---------------------------------------------------------------------------------------*/
+.add-button {
+    background-color: rgb(196, 146, 90);
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    font-size: 15px;
+    width: 100px;
+    height: 56px;
+    position: sticky;
+    left: 1700px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #997b63;
+    
+}
+/*弹出框样式----------------------------------------------------------------------------------------*/
+
+.pop-up {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    width:400px;
+    height: 200px;
+    background-color:#cdbfb4f5;
+    border-radius: 8px;
+}
+
+.closeButton {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    font-size: 21px;
+    cursor: pointer;
+}
+/*点击下拉菜单高亮-------------------------------------------------*/
